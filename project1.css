@@ -1,0 +1,55 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+
+body
+{
+ background-image: url('./image/background.jpg');
+ background-repeat: no-repeat;
+ height:fit-content;
+}
+
+ 
+ /* .parent
+{
+    
+    background-image: url('./image/mem3.png'); 
+    background-repeat: no-repeat;
+    height:400px;
+    width:400px;
+    border-radius: 50%;
+    
+ }  */
+
+.child
+{
+    position:relative;
+    left: 500px;
+   height:610px;
+   margin:20px;
+   width: 400px;
+   background-color:rgba(8, 201, 8, 0.418);
+   background-image: url('./image/download.png');
+   background-repeat:repeat-y;
+   
+ 
+ 
+}
+
+level
+{
+    font-size:20px;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button
+{
+    height:fit-content;
+}
+button:hover
+{
+    cursor:pointer;
+}
